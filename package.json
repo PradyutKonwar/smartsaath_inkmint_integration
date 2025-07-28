@@ -1,11 +1,14 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "smartsaathi-hub",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "SmartSaathi Hub - Multi-Vertical Digital Platform",
+  "keywords": ["react", "typescript", "tailwind", "vite", "smartsaathi"],
+  "author": "SmartSaathi Team",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -29,5 +32,8 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
